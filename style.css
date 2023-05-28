@@ -1,0 +1,19 @@
+.main {
+  background-color: black;
+}
+.k {
+  background-color: white;
+}
+.block-container {
+  padding-top: 10px;
+  margin-top: 200px;
+  width: 264px;
+  height: 570px;
+  background: linear-gradient(
+    180deg,
+    rgba(185, 251, 255, 0.7) 0%,
+    rgba(209, 201, 241, 0.7) 100%
+  );
+
+  border-radius: 20px;
+}
