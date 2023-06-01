@@ -22,7 +22,7 @@
   justify-content: space-between;
   padding: 0px;
   /* padding-top: 10px; */
-  margin-top: 150px;
+  margin-top: 80px;
   width: 264px;
   height: 570px;
   background: linear-gradient(
@@ -46,26 +46,28 @@
   font-size: 10px;
   font-weight: bold;
 }
-
-.my-container2 {
+.css-1cc1g65.e1tzin5v0 {
   display: flex;
-  width: 264px;
-  height: 66px;
-  background-color: white;
-  border-radius: 0px 0px 30px 30px;
-  justify-content: space-around;
-  align-items: center;
+  height: 50px;
+  justify-content: flex-start;
 }
-.my-container2 input {
-  width: 70%;
-  height: 50%;
-  border: none;
-  padding-left: 10px;
+.row-widget.stTextInput.css-rj343g.edfmue0 {
+  display: flex;
+  justify-content: center;
 }
-.my-container2 button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: white;
-  border: none;
+.st-bd.st-b3.st-be.st-b8.st-bf.st-bg.st-bh.st-bi.st-bj.st-bk.st-bl.st-bm.st-bn.st-b1.st-bo.st-au.st-ax.st-av.st-aw.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bp.st-bq.st-br.st-bs.st-bt.st-bu.st-bv {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.st-b3.st-b8.st-bw.st-b1.st-bo.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bx.st-bt {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.row-widget.stButton {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
 }
