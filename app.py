@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown(
     """
     <div class='k'>
-        <img src='https://www.figma.com/file/y2yBdvsnj1mXCqkbz6bS8U/Aria-Chat-Bot-%7C-Case-Study-(Community)?type=design&node-id=213-113&t=efeYi6V9u7UScXZl-4' alt='chat'/>
+        <img src='https://play-lh.googleusercontent.com/gdWh1q1H6CXO1B1IpB_FmqUAKs8uEZq8tRWzSPlYSwAVVK-BAB4pnhL4UhTzaIbZlSs=s48-rw' alt='chat'/>
         <h3 style='margin-top: 10px;'>삼성증권 챗봇이</h3>
     </div>
     """,
