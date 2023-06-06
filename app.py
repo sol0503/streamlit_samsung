@@ -79,13 +79,13 @@ if st.button("전송"):
         # MySQL 연결 정보를 환경 변수로 설정
         host = 'localhost'
         user = 'root'
-        password = '비밀번호'
+        password = os.getenv('MYSQL_PASSWORD')
         database = 'finance'
         # MySQL에 연결
         connection = mysql.connector.connect(
             host=host,
             user=user,
-            password=os.environ['PASSWORD'],
+            password=password,
             database=database
         )
 
