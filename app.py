@@ -76,16 +76,16 @@ user_input = st.text_input("", "")
 if st.button("전송"):
     query = generate_query(user_input)
     if query:
-        # MySQL 연결 설정 및 실행
+        # MySQL 연결 정보를 환경 변수로 설정
         host = 'localhost'
         user = 'root'
-        password =os.environ['PASSWORD']
+        password = '비밀번호'
         database = 'finance'
-
+        # MySQL에 연결
         connection = mysql.connector.connect(
             host=host,
             user=user,
-            password=password,
+            password=os.environ['PASSWORD'],
             database=database
         )
 
@@ -93,7 +93,7 @@ if st.button("전송"):
         cursor.execute(query)
         result = cursor.fetchall()
 
-        # 결과 출력 등 필요한 로직추가
+        # 결과 출력 등 필요한 로직 추가
         print(result)
 
         my_container1.image("Img/person.png", user_input)
@@ -105,3 +105,4 @@ if st.button("전송"):
     else:
         my_container1.image("Img/person.png", user_input)
         my_container1.image("Img/chat.png", "올바른 질문을 입력해주세요.")
+
