@@ -77,7 +77,7 @@ if st.button("전송"):
     query = generate_query(user_input)
     if query:
         # MySQL 연결 정보를 환경 변수로 설정
-        host = 'localhost'
+        host = '127.0.0.1'
         user = 'root'
         password = os.getenv('PASSWORD')
         database = 'finance'
