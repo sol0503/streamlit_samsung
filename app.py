@@ -17,6 +17,7 @@ st.markdown(
 with open('style.css') as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
+
 # 커스텀 레이아웃 생성
 my_container1 =  st.container()
 
